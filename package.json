@@ -1,10 +1,13 @@
 {
-  "name": "starpy-backend",
+  "name": "test-strapi",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "start": "node index.js"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
